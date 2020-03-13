@@ -44,7 +44,7 @@ router.post('/rss', async (req, res) => {
 				acast.checksum = Constants.PROCESSING;
 				acast.url = entry.enclosure.url;	
 				//logic to change checksum to retry
-				//processRow(entry.title,entry.enclosure.url); 
+				processRow(entry.title,entry.enclosure.url); 
 				acastArray.push(acast);
 			}else {		
 				acast.title =episode[0].title;

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --experimental-worker src/index.js",
     "dev": "nodemon --experimental-worker src/index.js",
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "dependencies": {
     "axios": "^0.19.2",
