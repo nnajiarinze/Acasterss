@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "checksum": "^0.1.1",
     "crypto": "^1.0.1",
     "express": "^4.17.1",
